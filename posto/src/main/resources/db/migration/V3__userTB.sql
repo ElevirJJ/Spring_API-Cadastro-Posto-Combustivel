@@ -1,0 +1,5 @@
+    CREATE TABLE user_tb (
+     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+     nome VARCHAR(30) NOT NULL,
+
+    )
