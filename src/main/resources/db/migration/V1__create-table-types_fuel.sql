@@ -1,0 +1,7 @@
+CREATE TABLE types_fuel (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    preco_por_litro DECIMAL(10,2) NOT NULL,
+    ativo TINYINT(1) NOT NULL DEFAULT 1,
+    PRIMARY KEY (id)
+);
